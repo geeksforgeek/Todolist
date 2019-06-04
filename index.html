@@ -1,0 +1,25 @@
+<!Doctype html>
+<html>
+<head>
+<p>shubhamrouniyar1998@gmail.com  contact 9686028405</p>
+<link  rel="StyleSheet" href="todo.css"type="text/css" >
+<script src="angular/angular.min.js"></script>
+<script src="todo.js"></script>
+</head>
+<body ng-app="myapp"  ng-controller="control">
+<form>
+<input type="textarea" id="value" name="value" ng-model="value" placeholder="ENTER YOUR TASK" required><br>
+
+<button ng-click="addtask()" id="button1" name="button1">ADD MY TASK</button>
+<div ng-show="showlist">
+<span ng-repeat="x in showlist track by $index">
+<table id="tab">
+<tr id="tr" ng-click="deleteme($index)">
+<td>{{x}}</td>
+</tr>
+</table>
+</span>
+</div>
+</form>
+</body>
+</html>

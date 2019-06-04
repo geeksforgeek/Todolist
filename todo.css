@@ -1,0 +1,42 @@
+body
+{
+background-color:yellow;
+}
+#button1
+{
+color:green;
+font-size:12px;
+}
+#button2
+{
+color:red;
+font-size:12px;
+}
+#tab
+{
+border: 1px solid grey;
+  border-collapse: collapse;
+  padding: 5px;
+}
+#value
+{
+border:5px solid black;
+height:50px;
+width:200px;
+}
+form
+{
+   width: 300px;
+   margin: 0 auto;
+   margin-top:200px;
+   margin-bottom:200px
+  
+}
+#tr
+{
+border:1px solid blue;
+}
+p
+{
+margin-left:900px
+}
